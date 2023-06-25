@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import profile from "../../assets/profile.jpeg";
+import profile from "../../assets/profile_pic.png";
 // import HeaderSocials from './HeaderSocials'
 import "./header.css";
 // import {BiDownvote} from 'react-icons/bi';
