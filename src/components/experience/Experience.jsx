@@ -10,8 +10,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { CgNpm } from "react-icons/cg";
-import { GrHeroku } from "react-icons/gr";
-import { RxVercelLogo } from "react-icons/rx";
+
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiCypress } from "react-icons/si";
@@ -43,73 +42,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend" data-aos="zoom-in-down">
-          <h3>Frontend And Backend</h3>
-          <div className="experience__content" data-aos="flip-right">
-            <article className="experience__details">
-              <TbBrandJavascript
-                data-aos="flip-right"
-                className="experience__details-icons"
-                style={{ fontSize: "80px" }}
-              />
-              <div>
-                <h2>JavaScript</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FaJava
-                className="experience__details-icons"
-                style={{ fontSize: "80px" }}
-              />
-              <div>
-                <h2>Java</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FaPython
-                className="experience__details-icons"
-                style={{ fontSize: "80px" }}
-              />
-              <div>
-                <h2>Python</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <AiOutlineHtml5
-                style={{ fontSize: "80px" }}
-                className="experience__details-icons"
-              />
-              <div>
-                <h2>HTML</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <TbBrandCss3
-                style={{ fontSize: "80px" }}
-                className="experience__details-icons"
-              />
-              <div>
-                <h2>CSS</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <GrMysql
-                style={{ fontSize: "80px" }}
-                className="experience__details-icons"
-              />
-              <div>
-                <h2>MySQL</h2>
-                <small className="text-light"></small>
-              </div>
-            </article>
-          </div>
-        </div>
-        <div className="experience__backend" data-aos="zoom-in-down">
-          <h3> Functional Testing Tools</h3>
+          <h3>Functional testing Tools</h3>
           <div className="experience__content" data-aos="flip-left">
             <article className="experience__details">
               <SiSelenium
@@ -168,6 +101,71 @@ const Experience = () => {
               />
               <div>
                 <h2>Rest Assured</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience__backend" data-aos="zoom-in-down">
+          <h3>Tools</h3>
+          <div className="experience__content" data-aos="flip-left">
+            <article className="experience__details">
+              <FaGitAlt
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>Git</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaSlack
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>Slack</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>MangoDB</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>TestNG</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <GrMysql
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>MySQL</h2>
+                <small className="text-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaStar
+                style={{ fontSize: "80px" }}
+                className="experience__details-icons"
+              />
+              <div>
+                <h2>Maven</h2>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -239,7 +237,7 @@ const Experience = () => {
           </div>
         </div>
 
-        <div className="experience__backend" data-aos="zoom-in-down">
+        {/* <div className="experience__backend" data-aos="zoom-in-down">
           <h3>Tools</h3>
           <div className="experience__content" data-aos="flip-left">
             <article className="experience__details">
@@ -303,7 +301,7 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
